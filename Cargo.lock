@@ -1052,7 +1052,7 @@ dependencies = [
  "log 0.3.6 (registry+https://github.com/rust-lang/crates.io-index)",
  "msg 0.0.1",
  "net_traits 0.0.1",
- "osmesa-src 12.0.1 (git+https://github.com/servo/osmesa-src)",
+ "osmesa-src 13.0.1-devel (git+https://github.com/emilio/osmesa-src?branch=osmesaup)",
  "osmesa-sys 0.1.2 (registry+https://github.com/rust-lang/crates.io-index)",
  "script_traits 0.0.1",
  "servo-egl 0.2.1 (registry+https://github.com/rust-lang/crates.io-index)",
@@ -1925,8 +1925,8 @@ dependencies = [
 
 [[package]]
 name = "osmesa-src"
-version = "12.0.1"
-source = "git+https://github.com/servo/osmesa-src#42509fbd70d0e54e1278849b771ea1cb1c3386f4"
+version = "13.0.1-devel"
+source = "git+https://github.com/emilio/osmesa-src?branch=osmesaup#205cfe62bfba476861e751532ee3f99a4f3906c9"
 
 [[package]]
 name = "osmesa-sys"
@@ -3470,7 +3470,7 @@ dependencies = [
 "checksum openssl-sys-extras 0.7.14 (registry+https://github.com/rust-lang/crates.io-index)" = "11c5e1dba7d3d03d80f045bf0d60111dc69213b67651e7c889527a3badabb9fa"
 "checksum openssl-verify 0.1.0 (registry+https://github.com/rust-lang/crates.io-index)" = "3ed86cce894f6b0ed4572e21eb34026f1dc8869cb9ee3869029131bc8c3feb2d"
 "checksum ordered-float 0.2.3 (registry+https://github.com/rust-lang/crates.io-index)" = "cc511538298611a79d5a4ddfbb75315b866d942ed26a00bdc3590795c68b7279"
-"checksum osmesa-src 12.0.1 (git+https://github.com/servo/osmesa-src)" = "<none>"
+"checksum osmesa-src 13.0.1-devel (git+https://github.com/emilio/osmesa-src?branch=osmesaup)" = "<none>"
 "checksum osmesa-sys 0.1.2 (registry+https://github.com/rust-lang/crates.io-index)" = "88cfece6e95d2e717e0872a7f53a8684712ad13822a7979bc760b9c77ec0013b"
 "checksum owning_ref 0.2.4 (registry+https://github.com/rust-lang/crates.io-index)" = "9d52571ddcb42e9c900c901a18d8d67e393df723fcd51dd59c5b1a85d0acb6cc"
 "checksum parking_lot 0.3.7 (registry+https://github.com/rust-lang/crates.io-index)" = "3771b463ebf30418ef54378e647d01cc33123b2e7a4958b1cec284edc71054f6"
